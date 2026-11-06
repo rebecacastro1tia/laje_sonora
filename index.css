@@ -16,8 +16,27 @@
     --fonte-texto: "Archivo", Arial, sans-serif;
     
 }
+
 body {
     background: var(--concreto);
     color: var(--tinta);
     font-family: var(--fonte-texto);
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-cartaz);
+    font-weight: 900;
+    line-height: 0.95;
+}
+
+.conteudo {
+    size: 120px;
+    margin-inline: auto;
+    padding-inline: 32px;
 }
