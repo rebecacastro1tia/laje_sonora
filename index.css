@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --concreto: #e2dfd8;
+    --concreto-escuro: #cbc7be;
+    --tinta: #0f1e3d;
+    --caixa-dagua: #1f5fbf;
+    --fita: #f3c623;
+    --branco: #ffffff;
+
+    --fonte-cartaz:"Big Shoulders", "Arial Narrow", sans-serif;
+    --fonte-texto: "Archivo", Arial, sans-serif;
+    
+}
+body {
+    background: var(--concreto);
+    color: var(--tinta);
+    font-family: var(--fonte-texto);
+}
