@@ -56,4 +56,19 @@ h1, h2, h3 {
 .menu {
     display: flex;
     gap: 36px;
+
+   a {
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 4px solid transparent;
+
+   }
+   a:hover {
+    border-bottom-color: var(--tinta);
+   }
+
+   a.atual {
+    border-bottom-color: var(--fita);
+   }
 }
